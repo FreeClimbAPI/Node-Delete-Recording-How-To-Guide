@@ -4,4 +4,5 @@ const accountId = process.env.ACCOUNT_ID
 const authToken = process.env.AUTH_TOKEN
 const freeclimb = freeclimbSDK(accountId, authToken)
 
-freeclimb.api.recordings.deleteRec(recordingId)).catch (err => {/** Catch Errors */ })
+// Users must provide the recordingId for the recording they wish to delete
+freeclimb.api.recordings.delete(recordingId).catch (err => {/** Catch Errors */ })
