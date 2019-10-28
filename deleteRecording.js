@@ -1,7 +1,7 @@
 require('dotenv').config()
-const persephonySDK = require('@persephony/sdk')
+const freeclimbSDK = require('@freeclimb/sdk')
 const accountId = process.env.ACCOUNT_ID
 const authToken = process.env.AUTH_TOKEN
-const persephony = persephonySDK(accountId, authToken)
+const freeclimb = freeclimbSDK(accountId, authToken)
 
-persephony.api.recordings.deleteRec(recordingId)).catch (err => {/** Catch Errors */ })
+freeclimb.api.recordings.deleteRec(recordingId)).catch (err => {/** Catch Errors */ })
