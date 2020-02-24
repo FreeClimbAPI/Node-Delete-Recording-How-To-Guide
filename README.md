@@ -1,6 +1,6 @@
 # Node - Delete a Recording
 
-This project serves as a guide to help you build an application with FreeClimb. View this tutorial on [FreeClimb.com](https://docs.freeclimb.com/docs/delete-a-recording-2#section-javascript). Specifically, the project will:
+This project serves as a guide to help you build an application with FreeClimb. View this tutorial on [FreeClimb.com](https://docs.freeclimb.com/docs/delete-a-recording-2#section-nodejs). Specifically, the project will:
 
 - Delete a Recording   
 
