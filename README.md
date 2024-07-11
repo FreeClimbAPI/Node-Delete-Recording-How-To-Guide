@@ -1,6 +1,6 @@
-# Node - Delete a Recording
+# Node - Delete a Recording How-To Guide
 
-This project serves as a guide to help you build an application with FreeClimb. View this tutorial on [FreeClimb.com](https://docs.freeclimb.com/docs/delete-a-recording-2#section-nodejs). Specifically, the project will:
+This project serves as a guide to help you build an application with FreeClimb. View this how-to guide on [FreeClimb.com](https://docs.freeclimb.com/docs/delete-a-recording-2#section-nodejs). Specifically, the project will:
 
 - Delete a Recording   
 
@@ -8,7 +8,7 @@ This project serves as a guide to help you build an application with FreeClimb. 
 
 To get started using a FreeClimb account, follow the instructions [here](https://docs.freeclimb.com/docs/getting-started-with-freeclimb).
 
-## Setting up the Tutorial
+## Setting up the how-to guide
 
 1. Install the node packages necessary using command:
 
@@ -16,7 +16,7 @@ To get started using a FreeClimb account, follow the instructions [here](https:/
    $ yarn install
    ```
 
-2. Configure environment variables (this tutorial uses the [dotenv package](https://www.npmjs.com/package/dotenv)).
+2. Configure environment variables (this how-to guide uses the [dotenv package](https://www.npmjs.com/package/dotenv)).
 
    | ENV VARIABLE            | DESCRIPTION                                                                                                                                                                             |
    | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25,7 +25,7 @@ To get started using a FreeClimb account, follow the instructions [here](https:/
 
 3. Provide a value for the variable `recordingId` in deleteRecording.js. You can find the recording Id in the [recordings tab of the dashboard](https://www.freeclimb.com/dashboard/portal/recordings). To find out more about recordings, check out the [recording documentation](https://docs.freeclimb.com/docs/recordings-3)
 
-## Runnning the Tutorial
+## Runnning the how-to guide
 
 1. Run the application using command:
 
@@ -34,6 +34,6 @@ To get started using a FreeClimb account, follow the instructions [here](https:/
    ```
 
 
-## Getting Help
+## Getting help
 
 If you are experiencing difficulties, [contact support](https://freeclimb.com/support).
